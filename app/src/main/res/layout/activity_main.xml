@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnreiniciar"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="REINICIAR"/>
+
+
+    <RelativeLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_toRightOf="@id/btn1"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_toRightOf="@id/btn2"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_toRightOf="@id/btn3"
+            android:layout_width="60dp"
+            android:layout_height="70dp"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_toRightOf="@id/btn4"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/lb1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="50dp"
+        android:text="LABEL 1"/>
+
+    <TextView
+        android:id="@+id/lb2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textSize="20dp"
+        android:text="LABEL 2"/>
+
+
+</FrameLayout>
